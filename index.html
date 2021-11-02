@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="top-div">
+    <button id="addbookbutton"><a>Add Book</a></button>
+    </div>
+    <div class="bottomContainer">
+        <div class="modal-bg">
+            <div class="modal">
+                <span class="modal-close">X</span>
+                <form id="addbookform">
+                    <div class="data">
+                    <label>Book's Title</label>
+                    <br>
+                    <input type="text" id="bookTitle">
+                    </div>
+
+                    <div class="data">
+                    <label>Book's Author</label>
+                    <br>
+                    <input type="text" id="bookAuthor">
+                    </div>
+
+                    <div class="data">
+                        <label>Book's Pages</label>
+                        <br>
+                        <input type="text" id="bookPages">
+                    </div>
+
+                    <div class="data">
+                        <label>Read Status</label>
+                        <input type="checkbox" id="bookRead" />
+                    </div>
+                    
+                    <div class="submit">                    
+                        <div class="data">
+                        <input type="submit" value="add-book" class="add-book">
+                    </div></div>
+
+                    
+                </form>
+                
+            </div>
+        </div>
+    <div class="bottom-div">
+
+ 
+    
+    </div>
+</div>
+  <script src="book.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+html {
+    background-color: rgb(235, 235, 235);
+    padding: 0;
+    width: 99%;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bottom-div{
+    display: flex;
+    min-height: 79vh;
+    background-color: rgb(255, 255, 255);
+    padding: 1.5em 0.5em;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+
+
+}
+
+.top-div{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 219, 255);
+    padding: 1.5em 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+button{
+    cursor: pointer;
+}
+#addbookbutton{
+    height: 30%;
+    width: 10%;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    transition-duration: 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+#addbookbutton:hover{
+    background-color: rgb(88, 88, 88);
+}
+#addbookbutton:active{
+    background-color: rgb(121, 121, 121);
+}
+
+
+.modal-bg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top : 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+    box-sizing: border-box;
+
+    
+}
+
+.bg-active{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.modal{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+}
+
+.data{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-close{
+    width: 10%;
+    height: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    position: absolute;
+    top:20px;
+    right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.add-book{
+    align-self: center;
+    justify-self: center;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    width: 10em;
+    height: 2em;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin : 0 1em;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    box-sizing: border-box;
+
+}
+
+.cardTitleDiv{
+    background-color: rgb(213, 219, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.cardBodyDiv{
+    background-color: rgb(240, 240, 240);
+    font-size: 0.8em;
+}
+
+h1{
+    font-size: 1.2em;
+}
+h2{
+    font-size: 1em;
+}
+
+h3{
+    font-size: 0.7em;
+}
